@@ -1,9 +1,12 @@
-cd ~
+folder_name="my_folder"
+file_name="my_file"
 
-mkdir my_folder
+mkdir "$folder_name"
 
-touch my_folder/my_file.txt
+chmod 664 "$folder_name"
 
-chmod 644 my_folder
+touch "$file_name"
 
-chmod 744 my_folder/my_file.txt
+chmod 744 "$file_name"
+
+echo "Folder '$folder_name' and file '$file_name' created with specified permissions."
