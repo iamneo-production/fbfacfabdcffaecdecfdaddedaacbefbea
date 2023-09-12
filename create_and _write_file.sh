@@ -1,4 +1,4 @@
-file_path="/path/to/your/file.txt"
+file_path=":~/project/workspace$"
 
 content="Hello, this is some text content written to the file."
 
