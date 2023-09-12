@@ -1,14 +1,9 @@
-directory="/home/coder"
-folder_name="new_folder"
+cd ~
 
-mkdir "$directory/$folder_name"
-chmod 444 "$directory/$folder_name"
+mkdir my_folder
 
-file_name="new_file.txt"
-file_content="This is a new file with custom permissions."
+touch my_folder/my_file.txt
 
-echo "$file_content" > "$directory/$folder_name/$file_name"
+chmod 644 my_folder
 
-chmod 744 "$directory/$folder_name/$file_name"
-
-echo "Created folder '$folder_name' and file '$file_name' in '$directory' with custom permissions."
+chmod 744 my_folder/my_file.txt
