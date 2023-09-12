@@ -2,7 +2,7 @@ directory="/home/coder"
 folder_name="new_folder"
 
 mkdir "$directory/$folder_name"
-chmod 644 "$directory/$folder_name"
+chmod 444 "$directory/$folder_name"
 
 file_name="new_file.txt"
 file_content="This is a new file with custom permissions."
