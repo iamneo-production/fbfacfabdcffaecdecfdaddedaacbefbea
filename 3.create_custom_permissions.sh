@@ -9,4 +9,4 @@ touch "$file_name"
 
 chmod 744 "$file_name"
 
-echo "Folder '$folder_name' and file"
+echo "Folder '$folder_name' and file '$file_name' created with specified permissions."
